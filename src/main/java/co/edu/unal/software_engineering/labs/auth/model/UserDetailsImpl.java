@@ -15,6 +15,7 @@ public class UserDetailsImpl implements UserDetails{
 
     private String username;
     private String password;
+    private String test = "A new line to test integration with jenkins";
     private Collection<? extends GrantedAuthority> authorities;
 
 
