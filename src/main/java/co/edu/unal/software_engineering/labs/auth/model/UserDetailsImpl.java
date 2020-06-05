@@ -15,6 +15,7 @@ public class UserDetailsImpl implements UserDetails{
 
     private String username;
     private String password;
+    private String newstr;
     private Collection<? extends GrantedAuthority> authorities;
 
 
