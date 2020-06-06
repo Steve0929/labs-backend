@@ -15,7 +15,7 @@ public class UserDetailsImpl implements UserDetails{
 
     private String username;
     private String password;
-    private string malformed_str = //Intentional wrong line
+    //private string malformed_str = //Intentional wrong line
     private Collection<? extends GrantedAuthority> authorities;
 
 
